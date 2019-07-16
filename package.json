@@ -1,0 +1,24 @@
+{
+  "name": "web-page-parts",
+  "version": "1.0.0",
+  "description": "Practice project creating boilerplate and css/sass library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fpassow/web-page-parts.git",
+    "scss": "node-sass --watch scss -o public"
+  },
+  "author": "Fritz Passow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fpassow/web-page-parts/issues"
+  },
+  "homepage": "https://github.com/fpassow/web-page-parts#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
