@@ -1,0 +1,25 @@
+html {
+  /* For easy, accessible reading */
+  line-height: 1.5;
+  /* defines "rem" unit */
+  font-size: 18px;
+  /* So it doesn't look like 1997 */
+  font-family: sans-serif; }
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+#duh {
+  display: flex;
+  /* flex-direction defaults to "row". The other is "column" */
+  /* On-axis. Horizontal in this case. */
+  justify-content: center;
+  /* Cross-axis. Horizontal in this case. */
+  align-items: center;
+  border: 1px solid red;
+  height: 300px; }
+
+#der {
+  border: 1px solid blue; }

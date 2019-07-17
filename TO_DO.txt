@@ -7,8 +7,9 @@
 PARTS:
 ------
 
-PLAN IS TO BUILD LIKE IT'S A ONE-OFF, THEN CLASS(?), THEN MIXIN.
-
+==================================================
+>>>>NEXT!!!! DO 3 FLEXBOX TUTORIALS <<<<<<<<<<<<<<<<<<<<
+====================================================
 
 MULTIPLE EXAMPLE HEADERS
   PARTS AND SUBSTYLES FOR THOSE
@@ -19,11 +20,9 @@ MULTIPLE EXAMPLE FOOTERS
 RESPONSIVE PARTS
 img {max-width: 100%;}
 
-
-
 GRID
 
-
+PLAN IS TO BUILD LIKE IT'S A ONE-OFF, THEN SHIFT TOWARD LIBRARY-NESS
 
 BACKGROUND
 body {

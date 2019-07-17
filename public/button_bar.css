@@ -1,13 +1,15 @@
-body {
-  /* For layout */
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+html {
   /* For easy, accessible reading */
   line-height: 1.5;
+  /* defines "rem" unit */
   font-size: 18px;
-  /* So it doesn't look like 1997 out of the box */
+  /* So it doesn't look like 1997 */
   font-family: sans-serif; }
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
 /* A nav bar using flexbox, with links like adjacent rectangular buttons.  */
 ul {

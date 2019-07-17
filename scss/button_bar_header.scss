@@ -1,0 +1,42 @@
+@import 'base';
+
+/* A nav bar using flexbox, with links like adjacent rectangular buttons.  */
+
+$color: white;
+$background: black;
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    background: $background;
+    font-weight: bold;
+}
+
+li {
+    display: block;
+    justify-content: right;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    color: $color;
+    border: 1px solid gray;
+}
+
+a:hover {
+    background: gray;
+}
+
+img {
+    height: 3em;
+}
+
+.jc-left {
+    justify-content: left;
+}
+
+

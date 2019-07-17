@@ -15,3 +15,23 @@ body {
     box-sizing: border-box;
 }
 
+#duh {
+    display: flex;
+
+    border:1px solid red;
+    height: 100px;
+}
+#fit1 {
+    border: 1px solid blue;
+    flex: 1;
+}
+#fit2 {
+    border: 1px solid blue;
+    flex: 2;
+}
+#fit3 {
+    border: 1px solid blue;
+    flex: 3;
+}
+
+
