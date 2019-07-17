@@ -1,0 +1,29 @@
+body {
+  /* For layout */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* For easy, accessible reading */
+  line-height: 1.5;
+  font-size: 18px;
+  /* So it doesn't look like 1997 out of the box */
+  font-family: sans-serif; }
+
+/* A nav bar using flexbox, with links like adjacent rectangular buttons.  */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  background: black;
+  font-weight: bold; }
+
+a {
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  color: white;
+  border: 1px solid gray; }
+
+a:hover {
+  background: gray; }

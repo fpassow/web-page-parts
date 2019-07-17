@@ -1,10 +1,14 @@
 **********PLAN************
 >>GO AHEAD AND START WITH SCSS, BECUASE LEARNING IT IS MORE IMPORTANT THAN THIS REPO.
 
+>>Everything RESPONSIVE
+>>DO MOBILE-FIRST VERSIONS OF ALL MAIN CATEGORIES
+
 PARTS:
 ------
 
-Style a nav UL
+PLAN IS TO BUILD LIKE IT'S A ONE-OFF, THEN CLASS(?), THEN MIXIN.
+
 
 MULTIPLE EXAMPLE HEADERS
   PARTS AND SUBSTYLES FOR THOSE
@@ -14,3 +18,15 @@ MULTIPLE EXAMPLE FOOTERS
 
 RESPONSIVE PARTS
 img {max-width: 100%;}
+
+
+
+GRID
+
+
+
+BACKGROUND
+body {
+    height: 125vh;
+    background-image: url('FOO.jpg');
+    background-size: cover;
