@@ -9,6 +9,7 @@ PARTS:
 
 ==================================================
 >>>>NEXT!!!! DO 3 FLEXBOX TUTORIALS <<<<<<<<<<<<<<<<<<<<
+[[[[[then build stuff with flexbox as my "hammer".]]]]]
 ====================================================
 
 MULTIPLE EXAMPLE HEADERS

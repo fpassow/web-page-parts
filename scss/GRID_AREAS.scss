@@ -1,0 +1,49 @@
+@import 'base';
+
+#duh {
+    border:1px solid red;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr  1fr;
+    grid-template-rows: 50px 50px auto 80px;
+
+    grid-template-areas: 
+        "head  head   head   head"
+        "lefty righty righty righty"
+        "lside cent   cent   rside"
+        "foot  foot   foot   foot";
+
+    div {
+        border: 1px solid blue;
+    }
+}
+
+#foo {
+    grid-area: head;
+    background: red;
+}
+#bar {
+    grid-area: lefty;
+    background: green;
+}
+#baz {
+    grid-area: righty;
+    background: blue;
+} 
+#blorp {
+    grid-area: lside;
+    background: yellow;
+}
+#garble {
+    grid-area: cent;
+    background: orange;
+}
+#wombat {
+    grid-area: rside;
+    background: purple;
+}
+#honk {
+    grid-area: foot;
+    background: red;
+}
+

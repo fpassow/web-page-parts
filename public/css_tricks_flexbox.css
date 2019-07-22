@@ -1,0 +1,62 @@
+html {
+  /* For easy, accessible reading */
+  line-height: 1.5;
+  /* defines "rem" unit */
+  font-size: 18px;
+  /* So it doesn't look like 1997 */
+  font-family: sans-serif; }
+
+body {
+  padding: 0;
+  margin: 0;
+  /* For all browsers. So there. */
+  box-sizing: border-box; }
+
+img {
+  /* NOT SURE ABOUT THIS ONE AS A DEFAULT... */
+  display: block;
+  /* If I set the parent size, then that's all the size I want. */
+  max-width: 100%; }
+
+#duh {
+  border: 1px solid red;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr  1fr;
+  grid-template-rows: 50px 50px auto 80px;
+  grid-template-areas: "head  head   head   head" "lefty righty righty righty" "lside cent   cent   rside" "foot  foot   foot   foot"; }
+  #duh div {
+    border: 1px solid blue; }
+
+#foo {
+  grid-area: head;
+  background: red;
+  display: flex;
+  justify-content: space-between; }
+
+#foo div {
+  flex-grow: 0; }
+
+#bar {
+  grid-area: lefty;
+  background: green; }
+
+#baz {
+  grid-area: righty;
+  background: blue; }
+
+#blorp {
+  grid-area: lside;
+  background: yellow; }
+
+#garble {
+  grid-area: cent;
+  background: orange; }
+
+#wombat {
+  grid-area: rside;
+  background: purple; }
+
+#honk {
+  grid-area: foot;
+  background: red; }
